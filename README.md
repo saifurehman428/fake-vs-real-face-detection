@@ -1,4 +1,4 @@
-# GAN-Based Image Detection with CNN Models
+# Fake Vs Real Face Detection Using CNN Models
 
 ## Introduction
 With the advancements in AI, particularly in generative adversarial neural networks (GANs), the quality of generated images has reached a point where distinguishing between real and fake images is challenging. This study focuses on training various convolutional neural network (CNN) models to detect GAN-generated images using a large dataset of real and fake human faces. Additionally, a cropping technique is proposed to increase the accuracy of these models by focusing on specific regions, such as the eyes.
