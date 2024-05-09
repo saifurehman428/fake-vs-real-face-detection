@@ -4,7 +4,7 @@
 With the advancements in AI, particularly in generative adversarial neural networks (GANs), the quality of generated images has reached a point where distinguishing between real and fake images is challenging. This study focuses on training various convolutional neural network (CNN) models to detect GAN-generated images using a large dataset of real and fake human faces. Additionally, a cropping technique is proposed to increase the accuracy of these models by focusing on specific regions, such as the eyes.
 
 ## Dataset
-We used the "All GAN Data" dataset, which contains around 262,000 fake and real images. The data is open source and available on Kaggle. The dataset includes training, validation, and testing subsets, with a total size of around 12GB.
+We used the ["All GAN Data" dataset](https://www.kaggle.com/dataset-link), which contains around 262,000 fake and real images. The data is open source and available on Kaggle. The dataset includes training, validation, and testing subsets, with a total size of around 12GB.
 
 ## Methodology
 GAN-generated images often replicate most parts of the human face accurately, but they tend to struggle with certain features, like the eyes. The eyes in GAN-generated images can appear "painted" or unnatural due to fewer textures and less natural reflections.
